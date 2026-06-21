@@ -1,8 +1,14 @@
 import { useState } from 'react';
+import { getWeather } from './services/api';
 
 function App() {
   const [city, setCity] = useState('');
   const [weather, setWeather] = useState(null);
+
+    const fetchWeather = async () => {
+    
+  }
+
   return (
     <div>
       <h1>Weather App</h1>
@@ -14,7 +20,7 @@ function App() {
         onChange={(e) => setCity(e.target.value)}
       />
 
-      <button onClick={() => alert('Fetch weather for ' + city)}>Search</button>
+      <button onClick={fetchWeather}>Search</button>
 
       {weather && (
         <div>
