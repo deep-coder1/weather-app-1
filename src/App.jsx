@@ -6,7 +6,7 @@ function App() {
   const [weather, setWeather] = useState(null);
 
     const fetchWeather = async () => {
-    
+    const data = await getWeather(city)
   }
 
   return (
