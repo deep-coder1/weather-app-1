@@ -7,6 +7,7 @@ function App() {
 
     const fetchWeather = async () => {
     const data = await getWeather(city)
+    setWeather(data)
   }
 
   return (
