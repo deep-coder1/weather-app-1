@@ -31,7 +31,7 @@ function Weather() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 p-5">
-      <div >
+      <div className="bg-white/20 backdrop-blur-lg rounded-3xl shadow-xl p-8 w-full max-w-md text-white">
 
         
 
