@@ -37,11 +37,12 @@ function Weather() {
           Weather App
         </h1>
 
-        <div>
+        <div className="flex gap-2 mb-5">
           
         </div>
 
         
+
       </div>
     </div>
   );
