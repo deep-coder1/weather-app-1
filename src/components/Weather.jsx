@@ -38,7 +38,13 @@ function Weather() {
         </h1>
 
         <div className="flex gap-2 mb-5">
-          
+          <input
+            type="text"
+            placeholder="Enter city..."
+            
+          />
+
+        
         </div>
 
         
