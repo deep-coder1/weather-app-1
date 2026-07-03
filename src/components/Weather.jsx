@@ -41,13 +41,13 @@ function Weather() {
           <input
             type="text"
             placeholder="Enter city..."
+            value={city}
+            onChange={(e) => setCity(e.target.value)}
             
           />
 
-        
+          
         </div>
-
-        
 
       </div>
     </div>
