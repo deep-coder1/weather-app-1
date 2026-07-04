@@ -43,11 +43,13 @@ function Weather() {
             placeholder="Enter city..."
             value={city}
             onChange={(e) => setCity(e.target.value)}
-            
+            className="flex-1 px-4 py-3 rounded-lg bg-white text-black outline-none"
           />
 
           
         </div>
+
+        
 
       </div>
     </div>
