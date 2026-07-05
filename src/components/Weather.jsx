@@ -46,7 +46,11 @@ function Weather() {
             className="flex-1 px-4 py-3 rounded-lg bg-white text-black outline-none"
           />
 
-          
+          <button
+            
+          >
+            Search
+          </button>
         </div>
 
         
