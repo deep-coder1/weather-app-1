@@ -47,6 +47,7 @@ function Weather() {
           />
 
           <button
+            onClick={getWeather}
             
           >
             Search
@@ -54,7 +55,6 @@ function Weather() {
         </div>
 
         
-
       </div>
     </div>
   );
