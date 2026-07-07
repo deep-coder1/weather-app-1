@@ -48,13 +48,14 @@ function Weather() {
 
           <button
             onClick={getWeather}
-            
+            className="bg-yellow-400 text-black px-5 rounded-lg font-semibold hover:bg-yellow-300 transition"
           >
             Search
           </button>
         </div>
 
         
+
       </div>
     </div>
   );
