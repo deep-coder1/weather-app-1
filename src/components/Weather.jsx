@@ -54,8 +54,11 @@ function Weather() {
           </button>
         </div>
 
-        
+        {loading && (
+          
+        )}
 
+        
       </div>
     </div>
   );
