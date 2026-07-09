@@ -55,10 +55,13 @@ function Weather() {
         </div>
 
         {loading && (
-          
+          <div >
+            
+          </div>
         )}
 
         
+
       </div>
     </div>
   );
