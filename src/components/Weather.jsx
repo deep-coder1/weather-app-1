@@ -56,7 +56,7 @@ function Weather() {
 
         {loading && (
           <div >
-            
+            Loading...
           </div>
         )}
 
