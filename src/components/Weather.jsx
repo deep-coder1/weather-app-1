@@ -55,13 +55,12 @@ function Weather() {
         </div>
 
         {loading && (
-          <div >
+          <div className="text-center">
             Loading...
           </div>
         )}
 
         
-
       </div>
     </div>
   );
