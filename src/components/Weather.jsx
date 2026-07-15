@@ -62,11 +62,11 @@ function Weather() {
 
         {error && (
           <div >
-            
+            {error}
           </div>
         )}
 
-
+        
 
       </div>
     </div>
