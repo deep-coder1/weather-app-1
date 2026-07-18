@@ -66,7 +66,9 @@ function Weather() {
           </div>
         )}
 
-        
+        {weather && (
+          
+        )}
 
       </div>
     </div>
