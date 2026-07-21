@@ -69,7 +69,10 @@ function Weather() {
         {weather && (
           <div className="text-center mt-6">
 
-            
+            <h2 >
+              {weather.name}
+            </h2>
+
           </div>
         )}
 
