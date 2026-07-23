@@ -73,6 +73,10 @@ function Weather() {
               {weather.name}
             </h2>
 
+            <img
+              
+            />
+
             
           </div>
         )}
