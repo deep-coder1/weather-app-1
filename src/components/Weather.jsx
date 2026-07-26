@@ -74,12 +74,16 @@ function Weather() {
             </h2>
 
             <img
-              
+              className="mx-auto"
               src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}
               alt="weather"
             />
 
             
+          </div>
+        )}
+
+      </div>
     </div>
   );
 }
