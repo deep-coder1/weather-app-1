@@ -79,6 +79,10 @@ function Weather() {
               alt="weather"
             />
 
+            <p">
+              
+            </p>
+
             
           </div>
         )}
