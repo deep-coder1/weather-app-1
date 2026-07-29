@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { getWeather } from './services/api';
-// import Weather from './components/Weather';
+import Weather from './components/Weather';
 
 function App() {
   const [city, setCity] = useState('');
@@ -33,7 +33,7 @@ function App() {
     // </div>
     
     <>
-    {/* <Weather /> */}
+    <Weather />
     </>
   );
 }

@@ -79,7 +79,7 @@ function Weather() {
               alt="weather"
             />
 
-            <p >
+            <p className="text-5xl font-bold">
               {Math.round(weather.main.temp)}°C
             </p>
 
