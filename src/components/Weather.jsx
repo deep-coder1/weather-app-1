@@ -84,7 +84,7 @@ function Weather() {
             </p>
 
             <p>
-              
+              {weather.weather[0].description}
             </p>
 
             
