@@ -83,7 +83,7 @@ function Weather() {
               {Math.round(weather.main.temp)}°C
             </p>
 
-            <p>
+            <p className="text-xl capitalize mt-2">
               {weather.weather[0].description}
             </p>
 
