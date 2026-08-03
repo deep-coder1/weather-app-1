@@ -87,9 +87,10 @@ function Weather() {
               {weather.weather[0].description}
             </p>
 
-            <div>
+            <div className="grid grid-cols-3 gap-4 mt-8">
 
               
+
             </div>
           </div>
         )}
