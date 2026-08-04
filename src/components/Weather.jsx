@@ -89,6 +89,10 @@ function Weather() {
 
             <div className="grid grid-cols-3 gap-4 mt-8">
 
+              <div>
+                
+              </div>
+
               
 
             </div>
