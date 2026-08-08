@@ -90,8 +90,11 @@ function Weather() {
             <div className="grid grid-cols-3 gap-4 mt-8">
 
               <div className="bg-white/20 p-3 rounded-xl">
-                <p>Humidity</p>
+                <p className="font-bold">Humidity</p>
+                
               </div>
+
+              
               
             </div>
           </div>
