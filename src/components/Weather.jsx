@@ -91,7 +91,7 @@ function Weather() {
 
               <div className="bg-white/20 p-3 rounded-xl">
                 <p className="font-bold">Humidity</p>
-                
+                <p>{weather.main.humidity}%</p>
               </div>
 
               
