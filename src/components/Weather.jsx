@@ -94,6 +94,10 @@ function Weather() {
                 <p>{weather.main.humidity}%</p>
               </div>
 
+              <div>
+                
+              </div>
+
               
               
             </div>
