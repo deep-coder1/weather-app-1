@@ -96,10 +96,9 @@ function Weather() {
 
               <div className="bg-white/20 p-3 rounded-xl">
                 <p className="font-bold">Wind</p>
-                
+                <p></p>
               </div>
 
-              
               
             </div>
           </div>
