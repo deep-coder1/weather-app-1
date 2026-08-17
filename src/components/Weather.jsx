@@ -99,7 +99,7 @@ function Weather() {
                 <p>{weather.wind.speed} m/s</p>
               </div>
 
-              <div>
+              <div className="bg-white/20 p-3 rounded-xl">
                 
               </div>
               
